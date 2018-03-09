@@ -1,0 +1,39 @@
+/* This is a comment! */
+/* CSS Syntax:
+
+selector {
+property:value; property:value;
+}
+
+*/
+
+/*Type selector*/
+
+
+p{ /* select all <p> */
+font-size: 16px; /*16px, 7pt, 100%, 1em */line-height: 1.5em;}
+
+figcaption {font-size: 0.75em;
+line-height: 1.5em;
+font-family: 'Elsie Swash Caps', cursive;
+color: #777;
+text-align: right;
+}
+
+.milk-text {
+  font: bold 2.6em 'Elsie Swash Caps';
+  color: white;
+  text-shadow: 0 3px 3px #000;
+}
+
+#logo {
+  background: aqua;
+}
+
+#logo h1 {
+  font-family: Georgia, cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
